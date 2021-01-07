@@ -7,7 +7,6 @@ class BankAccount
   
   def initialize(name)
     @name = name
-    binding.pry
     @balance = 1000
     @status = "open"
   end 
